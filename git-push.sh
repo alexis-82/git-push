@@ -7,7 +7,7 @@ cd "$repo"
 git add *
 echo -n 'Scrivere il commit: '
 read comment
-git commit -am '%comment'
+git commit -am "$comment"
 git pull --rebase origin master
 git remote rm origin
 git remote add origin git@github.com:"$login"/"$repo"
