@@ -4,7 +4,7 @@ read repo
 echo -n 'Nome user: '
 read login
 cd "$repo"
-git add *
+git add * -f
 echo -n 'Scrivere il commit: '
 read comment
 git commit -am "$comment"
