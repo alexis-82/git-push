@@ -20,4 +20,6 @@ git push -u origin master
 #git add -A
 #git commit -m 'Fix bad repo'
 #git push
+#git remote set-url origin git@github.com:username/repository
 #git push -f origin master
+
