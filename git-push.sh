@@ -13,7 +13,12 @@ git remote rm origin
 git remote add origin git@github.com:"$login"/"$repo"
 git push -u origin master
 
-
+#Try
+# Setting - Developer settings - Personal access tokens
+# Spuntare tutto e copiare il token
+# git add *
+# git commit -m "commit"
+# git push origin master - User:mionome Pass:token
 
 # Other Commands
 #git init
