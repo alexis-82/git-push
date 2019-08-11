@@ -10,7 +10,6 @@ read comment
 git commit -ma "$comment"
 git push origin master
 
-
 # FUNZIONA
 #git add * -f
 #echo -n 'Scrivere il commit: '
